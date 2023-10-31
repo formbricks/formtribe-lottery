@@ -1,4 +1,4 @@
-const leaderboard = [
+export const leaderboard = [
   {
     name: "Piyush",
     points: "4045",
