@@ -1,7 +1,7 @@
-export const leaderboard = [
+const Leaderboard = [
   {
     name: "Piyush",
-    points: "2650",
+    points: "4045",
     link: "https://github.com/gupta-piyush19",
   },
   {
@@ -14,7 +14,7 @@ export const leaderboard = [
   },
   {
     name: "Pratik",
-    points: "350",
+    points: "1350",
   },
   {
     name: "Karuppiah",
@@ -34,7 +34,7 @@ export const leaderboard = [
   },
   {
     name: "Naitik Kapadia (Arjun)",
-    points: "2250",
+    points: "3250",
     link: "https://github.com/KapadiaNaitik",
   },
   {
@@ -91,7 +91,7 @@ export const leaderboard = [
   },
   {
     name: "Aditya Deshlahre",
-    points: "1370",
+    points: "2120",
     link: "https://github.com/adityadeshlahre",
   },
   {
@@ -124,7 +124,7 @@ export const leaderboard = [
   },
   {
     name: "thanmaisai",
-    points: "1900",
+    points: "2825",
   },
   {
     name: "Rayyan Alam (Rayy)",
@@ -144,7 +144,7 @@ export const leaderboard = [
   },
   {
     name: "Anjaneya Gupta",
-    points: "2150",
+    points: "3150",
   },
   {
     name: "Sachin Kuber",
@@ -177,7 +177,7 @@ export const leaderboard = [
   },
   {
     name: "Abhinav Arya",
-    points: "900",
+    points: "1100",
     link: "github.com/itzabhinavarya",
   },
   {
@@ -186,7 +186,7 @@ export const leaderboard = [
   },
   {
     name: "Rohan Gupta",
-    points: "1300",
+    points: "1350",
     link: "https://github.com/rohan9896",
   },
   {
@@ -241,7 +241,7 @@ export const leaderboard = [
   },
   {
     name: "Bilal Mirza",
-    points: "1395",
+    points: "2095",
   },
   {
     name: "Asharan2511",
@@ -277,7 +277,7 @@ export const leaderboard = [
   },
   {
     name: "Moheyt",
-    points: "450",
+    points: "550",
   },
   {
     name: "ortin779",
@@ -285,11 +285,11 @@ export const leaderboard = [
   },
   {
     name: "Piyush Garg",
-    points: "150",
+    points: "650",
   },
   {
     name: "Sachin Mittal",
-    points: "450",
+    points: "850",
   },
   {
     name: "Sha1kh4",
@@ -321,7 +321,7 @@ export const leaderboard = [
   },
   {
     name: "aashish",
-    points: "880",
+    points: "980",
   },
   {
     name: "AliYar-Khan",
@@ -353,7 +353,7 @@ export const leaderboard = [
   },
   {
     name: "Ola",
-    points: "1550",
+    points: "1800",
   },
   {
     name: "Olalaye Blessing",
@@ -369,11 +369,11 @@ export const leaderboard = [
   },
   {
     name: "Shyam Raghu",
-    points: "400",
+    points: "500",
   },
   {
     name: "Vikas Patil",
-    points: "100",
+    points: "250",
   },
   {
     name: "0Armaan025",
