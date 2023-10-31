@@ -13,10 +13,8 @@ const fillPool = () => {
   }
 };
 
-const drawWinner = async () => {
-  const winner = pool[Math.floor(Math.random() * pool.length)];
-  previousWinners.push(winner);
-  return winner;
+const drawWinner = () => {
+  return pool[Math.floor(Math.random() * pool.length)];
 };
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -25,20 +23,23 @@ const main = async () => {
   prompt("Press enter to begin");
   console.log("\nLet's start the lottery! 🤩");
   await sleep(5000);
-  console.log(`Total number of participants 👨‍👩: ${leaderboard.length}`);
+  console.log(`Total number of participants 👨‍👩:  ${leaderboard.length}`);
   await sleep(5000);
   fillPool();
-  console.log(`Total number of tickets in the pool 🎟️: ${pool.length}`);
+  console.log(`Total number of tickets in the pool 🎟️:  ${pool.length}`);
   await sleep(5000);
   console.log("\n\nLet's draw a winner! 🎟\n");
   while (prompt("Press enter to continue") === "") {
     console.log("\nAnd the winner is... 🥁\n");
-    await sleep(7000);
-    let winner = await drawWinner();
+    await sleep(5000);
+    let winner = drawWinner();
     while (previousWinners.includes(winner)) {
-      winner = await drawWinner();
+      winner = drawWinner();
     }
-    console.log(winner);
+    previousWinners.push(winner);
+    console.log("------------------------------------");
+    console.log("     ", winner);
+    console.log("------------------------------------");
     await sleep(1000);
     console.log("\n\nCongratulations! 🎉🎉\n\n");
   }
