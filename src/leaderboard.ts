@@ -1,4 +1,4 @@
-const Leaderboard = [
+const leaderboard = [
   {
     name: "Piyush",
     points: "4045",
